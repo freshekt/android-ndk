@@ -56,7 +56,8 @@ APP_ABI := all
 
 ![cpp_build](cpp_build.png)   
 
-##Матерьялы статьи  и доп мотериалы:
+## Матерьялы статьи  и доп мотериалы:
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/RmPuwdxR1qs/0.jpg)](http://www.youtube.com/watch?v=RmPuwdxR1qs)
 [https://medium.com/@siantlords/opencv-and-android-ndk-integration-in-android-studio-883a810189e2](https://medium.com/@siantlords/opencv-and-android-ndk-integration-in-android-studio-883a810189e2)
 [https://github.com/quanhua92/NDK_OpenCV_AndroidStudio](https://github.com/quanhua92/NDK_OpenCV_AndroidStudio)
