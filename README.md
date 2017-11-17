@@ -1,10 +1,10 @@
 # Android NDK и OpenCV (С++) на Java Android (Windows 10)
 Данный гайд рассчитан на разработку в Android Studio.
-0. Установить Android SDK и Android NDK
-0. Открыть Android Studio -> Tools -> Android -> SDK manager
-0. Открыть вкладку SDK Tools
-0. Поставить CMake, LLDB. Проверить, что NDK на месте
-0. В Project Structure проверить, что пути до SDK, JDK и NDK верные.
+1. Установить Android SDK и Android NDK
+2. Открыть Android Studio -> Tools -> Android -> SDK manager
+3. Открыть вкладку SDK Tools
+4. Поставить CMake, LLDB. Проверить, что NDK на месте
+5. В Project Structure проверить, что пути до SDK, JDK и NDK верные.
 
 Следующий шаг нужен для удобного использования NDK:
 
