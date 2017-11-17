@@ -30,6 +30,7 @@
 ![build_cpp_header] (build_cpp_header.png)
 
 В папке jni cоздаем файл C++ подключаем в него созданные заголовки и определяем  описанные в заголовках методы
+
 ![cpp_defenition] (cpp_defenition.png)
 
 В той же папке создаем файл Android.mk с содержимым:
