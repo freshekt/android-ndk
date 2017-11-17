@@ -34,24 +34,34 @@
 
 В той же папке содаем файл Android.mk с содержимым:
 
-*LOCAL_PATH := $(call my-dir)
+```
+LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := ${Название Вашего класса} 
 LOCAL_SRC_FILES := ${Название Вашего класса с разширением}
-include $(BUILD_SHARED_LIBRARY)*
-
+include $(BUILD_SHARED_LIBRARY)
+```
 
 В той же папке содаем файл Application.mk с содержимым:
 
-*APP_MODULES := ${Название Вашего класса}
+```
+APP_MODULES := ${Название Вашего класса}
 
-APP_ABI := all*
+APP_ABI := all
+```
 
 Далее черз контекстное меню на папке jni билдим ndk-build
 
 ![cpp_build](cpp_build.png)   
+
+##Матерьялы статьи  и доп мотериалы:
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/RmPuwdxR1qs/0.jpg)](http://www.youtube.com/watch?v=RmPuwdxR1qs)
+[https://medium.com/@siantlords/opencv-and-android-ndk-integration-in-android-studio-883a810189e2](https://medium.com/@siantlords/opencv-and-android-ndk-integration-in-android-studio-883a810189e2)
+[https://github.com/quanhua92/NDK_OpenCV_AndroidStudio](https://github.com/quanhua92/NDK_OpenCV_AndroidStudio)
+[https://sriraghu.com/2017/03/11/opencv-in-android-an-introduction-part-1/](https://sriraghu.com/2017/03/11/opencv-in-android-an-introduction-part-1/)
+
 
 Запускаем приложение  и радуемся)))
 
