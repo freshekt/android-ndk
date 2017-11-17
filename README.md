@@ -14,12 +14,15 @@
 ![ndk-build_clean](ndk-build_clean.png)
 
 Далее в Project меняем отображение с Android на Project  и в app/src/main добавляем jni директорию как показано на картинке
+
 ![create_jni_dir](create_jni_dir.png)
 
 Создаем класс который будет работать с С++
+
 ![ndkclass](ndkclass.png)
 
 Настраиваем градл  
+
 ![configuregradle](configuregradle.png)
 
 ## Не забываем  добавить android.useDeprecateNdk=true  в конец gradle.properties
@@ -27,6 +30,7 @@
 ## Билдим проект!
 
 Через контекстное меню  билдим заголовки нашего cpp  класса
+
 ![build_cpp_header] (build_cpp_header.png)
 
 В папке jni cоздаем файл C++ подключаем в него созданные заголовки и определяем  описанные в заголовках методы
