@@ -34,22 +34,23 @@
 
 В той же папке содаем файл Android.mk с содержимым:
 
-LOCAL_PATH := $(call my-dir)
+*LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := ${Название Вашего класса} 
 LOCAL_SRC_FILES := ${Название Вашего класса с разширением}
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)*
 
 
 В той же папке содаем файл Application.mk с содержимым:
 
-APP_MODULES := ${Название Вашего класса}
+*APP_MODULES := ${Название Вашего класса}
 
-APP_ABI := all
+APP_ABI := all*
 
 Далее черз контекстное меню на папке jni билдим ndk-build
+
 ![cpp_build](cpp_build.png)   
 
 Запускаем приложение  и радуемся)))
