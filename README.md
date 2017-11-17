@@ -50,7 +50,7 @@ APP_MODULES := ${Название Вашего класса}
 APP_ABI := all
 
 Далее черз контекстное меню на папке jni билдим ndk-build
-![cpp-build](cpp-build.png)   
+![cpp_build](cpp_build.png)   
 
 Запускаем приложение  и радуемся)))
 
