@@ -8,7 +8,7 @@
 
 Следующий шаг нужен для удобного использования NDK:
 
-Заходим в Preferences -> Tools -> External Tools и настраиваием такие штуки ( пути должны быть без пробелов в моем случае исходники студии пришлось в С:\AndroidStudio перенести) 
+Заходим в Preferences -> Tools -> External Tools и настраиваем такие штуки ( пути должны быть без пробелов в моем случае исходники студии пришлось в С:\AndroidStudio перенести) 
 ![javah](javah.png)
 ![ndk-build](ndk-build.png)
 ![ndk-build_clean](ndk-build_clean.png)
@@ -16,7 +16,7 @@
 Далее в Project меняем отображение с Android на Project  и в app/src/main добавляем jni директорию как показано на картинке
 ![create_jni_dir](create_jni_dir.png)
 
-Создаем класс который будет рабоать с С++
+Создаем класс который будет работать с С++
 ![ndkclass](ndkclass.png)
 
 Настраиваем градл  
