@@ -22,9 +22,9 @@
 Настраиваем градл  
 ![configuregradle](configuregradle.png)
 
-Не забываем  добавить android.useDeprecateNdk=true  в конец gradle.properties
+## Не забываем  добавить android.useDeprecateNdk=true  в конец gradle.properties
 
-Билдим проект!
+## Билдим проект!
 
 Через контекстное меню  билдим заголовки нашего cpp  класса
 ![build_cpp_header] (build_cpp_header.png)
